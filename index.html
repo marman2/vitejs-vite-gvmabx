@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <div id="body">
+    <div id="chat-circle" class="btn btn-raised"></div>
+    <div class="little-circle"></div>
+  </div>
+  <div class="chat-box">
+    <div class="chat-box-header">
+      <img src="iconbot.svg" />
+      <p>ChatBot</p>
+      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay"></div>
+      <div class="chat-logs"></div>
+    </div>
+    <div class="chat-input">
+      <form>
+        <input type="text" id="chat-input" placeholder="Send a message..." />
+        <button type="submit" class="chat-submit" id="chat-submit">
+          <i class="material-icons">send</i>
+        </button>
+      </form>
+    </div>
+  </div>
+</html>
